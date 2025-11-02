@@ -1,0 +1,93 @@
+html {
+    background-color: antiquewhite;
+}
+
+.image-container{
+    text-align: center;
+}
+.icon-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: monospace;
+    font-weight: 1000;
+}
+.icon-icon img{
+    box-shadow:0 0 20px rgba(0,123,255,0.3)
+}
+
+h1{
+    font-display: swap;
+    font-variant: small-caps;
+    font-family: monospace;
+    color: black;
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: unset;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: justify;
+}
+.image-container {
+    text-align: center;
+}
+p {
+    font-size: small;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 1.2;
+    text-shadow: 3px;
+}
+.Title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: teal;
+}
+.work {
+    color: black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 2px whitesmoke;
+    cursor: pointer;
+    font-size: 16px;
+}
+.button:hover{
+    background-color: darkblue;
+}
+.Certificate {
+    display: inline-block;
+    padding: 2px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 2px whitesmoke;
+    cursor: pointer;
+    font-size: 10px;
+}
+.Certificate:hover{
+    background-color: dodgerblue;
+}
+.Certificate:active{
+    background-color: aqua;
+}
+p[
+    value="2"
+]{color: rgb(48, 40, 160); 
+    box-shadow:0 2px 10px; 
+    border-radius: 5px; 
+    width: 100px; 
+    font-weight: 560;}
